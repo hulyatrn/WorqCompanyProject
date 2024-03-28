@@ -1,0 +1,33 @@
+.login-section {
+  background-color: #cfcece;
+  height: 100vh;
+  padding: 35px;
+}
+.login-form {
+  background-color: white;
+  width: 420px;
+  padding: 32px;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.input:focus,
+select:focus {
+  outline: #016271 solid 1px;
+}
+
+@media (max-width: 968px) {
+  .login-form {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  input {
+    padding: 0 !important;
+  }
+  form {
+    margin: 20px !important;
+  }
+  .login-container {
+    padding: 12px !important;
+  }
+}

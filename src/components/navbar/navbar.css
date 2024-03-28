@@ -1,0 +1,11 @@
+@media (max-width: 968px) {
+    .logo {
+        width: 200px!important;
+    }
+    .navbar-btn{
+        padding: 0px 10px!important;
+    }
+    .navbar-container{
+        gap: 10px;
+    }
+}
